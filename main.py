@@ -5,12 +5,10 @@
 # Section: 1
 # Breakout: 8
 
-def getLetterGrade(grade):
-
-  grade = float(input("Enter your CMPSC 131 grade: "))
+grade = float(input("Enter your CMPSC 131 grade: "))
 
 if grade >= 93.0:
-  letter = "A"
+ letter = "A"
 elif grade >=90.0:
   letter = "A-"
 elif grade >= 87.0:
@@ -18,7 +16,7 @@ elif grade >= 87.0:
 elif grade >= 83.0:
   letter = "B"
 elif grade >= 80.0:
-  letter = "B-"
+ letter = "B-"
 elif grade >= 77.0:
   letter = "C+"
 elif grade >= 70.0:
@@ -29,3 +27,6 @@ else:
   letter = "F"
 
 print(f"Your letter grade for CMPSC 131 is  {letter}.")
+
+#if_name_== "_main_"
+#run()
