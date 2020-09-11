@@ -16,7 +16,7 @@ def getLetterGrade(grade):
     return "B"
   elif (grade >=80.0) :
     return "B-"
-  elif (grade >=73.0) :
+  elif (grade >=77.0) :
     return "C+"
   elif (grade >=70.0) :
     return "C"
